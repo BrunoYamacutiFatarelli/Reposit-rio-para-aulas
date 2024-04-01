@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+}
+h1{
+    color:aqua; 
+    font-size: 3em; 
+    background-color: black; 
+    font-weight: bolder; 
+    text-align: center;
+}
+h2{
+    color:brown; 
+    font-size: 1.75em; 
+    background-color: black; 
+    font-weight: bold; 
+    text-align: center;
+}
+h3{
+    color:aqua; 
+    font-size: 1.5em; 
+    background-color:black; 
+    font-weight: lighter;
+}

@@ -13,5 +13,5 @@ main()
 	valorA=valorB;
 	valorB=valorC;
 	
-	printf("Os vlores de A e B foram trocados! A=%d e B=%d", valorA, valorB);
+	printf("Os valores de A e B foram trocados! A=%d e B=%d", valorA, valorB);
 }

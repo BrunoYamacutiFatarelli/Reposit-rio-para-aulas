@@ -1,0 +1,25 @@
+body{
+    background: url("images/wu.png") no-repeat fixed left bottom;
+}
+.mainDiv{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.mainDiv div{
+    width: 200px;
+    height: 2000px;
+    border: 5px solid rgb(128, 41, 0);
+    margin: 5px;
+}
+.div1{
+    background-image: url("images/bg_repeat.jpg");
+}
+.div2{
+    background-image: url("images/bg_repeatx.jpg");
+    background-repeat: repeat-x;
+}
+.div3{
+    background-image: url("images/bg_repeaty.jpg");
+    background-repeat: repeat-y;
+}
