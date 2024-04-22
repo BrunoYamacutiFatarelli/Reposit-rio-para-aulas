@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+<body>
+    <h1>
+        Calculadora
+    </h1>
+    <form action="#">
+        <label for="v1">Primeiro Valor: </label>
+        <input type="text" id="v1" name="v1">
+        <br>
+        <label for="v2">Segundo Valor: </label>
+        <input type="text" id="v2" name="v2">
+        <br>
+        <label for="op">Operação</label>
+        <br>
+        <input type="radio" name="op" value="+">+</input>
+        <input type="radio" name="op" value="-">-</input>
+        <input type="radio" name="op" value="*">*</input>
+        <input type="radio" name="op" value="/">/</input>
+        <br>
+        <input type="button" id="btnClicar" value="calcular">
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>

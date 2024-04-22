@@ -1,0 +1,267 @@
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    background-color: #0e1319;
+}
+h1{
+    color: rgb(255, 136, 0);
+    font:bolder;
+}
+h2{
+    color: rgb(255, 136, 0);
+    font:bolder;
+}
+p{
+    color: rgb(255, 136, 0);
+    font:bolder;
+}
+a:link{
+    color:blueviolet;
+}
+a:hover{
+    color:rgb(85, 43, 124);
+}
+a:active{
+    color: rgb(163, 106, 216);
+}
+a:visited{
+    color: rgb(76, 43, 226);
+}
+header{
+    float: left;
+    width: 100%;
+}
+#logocontainer{
+    float:left;
+    width:100%;
+}
+#pagelogo{
+    width: 7em;
+    float: left;
+    padding: 5px;
+}
+#titlecontainer{
+    float:none;
+    text-align: center;
+    font-size: 2em;
+}
+#subtitlecontainer{
+    float:none;
+    text-align: center;
+}
+#navcontainer{
+    float:right;
+    width: 100%;
+}
+#nav{
+    float: right;
+    margin: 5px;
+    padding-bottom: 3em;
+}
+#postercontainer{
+    float: none;
+    padding: 5%; 
+}
+#poster{
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2em;
+    box-shadow: 4px 4px;
+}
+#textcontainer{
+    float: none;
+    border: 1px solid black;
+    margin: 10px;
+}
+#text{
+    text-align: center;
+    text-justify: auto;
+    font-size: 1.5em;
+}
+#OPdescContainer{
+    float:left;
+    border: 5px solid white;
+    width: 25%;
+    margin: 2em;
+}
+#OPdesc{
+    font-size: 1.5em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#OperatorsContainer{
+    float: left;
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ashimage{
+    width: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#AshContainer{
+    font-size: larger;
+    float:none;
+    width: 30%;
+    text-align: center;
+    text-justify: auto;
+    border: 4px solid white;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#blitzimage{
+    width: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#BlitzContainer{
+    font-size: larger;
+    float:none;
+    width: 30%;
+    text-align: center;
+    text-justify: auto;
+    border: 4px solid white;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#docimage{
+    width: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DocContainer{
+    font-size: larger;
+    float:none;
+    width: 30%;
+    text-align: center;
+    text-justify: auto;
+    border: 4px solid white;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#muteimage{
+    width: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#MuteContainer{
+    font-size: larger;
+    float:none;
+    width: 30%;
+    text-align: center;
+    text-justify: auto;
+    border: 4px solid white;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footercontainer{
+    width: 100%;
+    padding-top: 0.5em;
+    float: left;
+    text-align: center;
+}
+#guiacontainer{
+    width: 100%;
+    float: none;
+}
+#guiadesc{
+    font-size: 2em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-justify: auto;
+}
+#fazercontainer{
+    width: 100%;
+    float: none;
+}
+#fazertexto{
+    display: block;
+    width: 40%;
+    font-size: larger;
+}
+#naofazercontainer{
+    width: 100%;
+    float:none;
+}
+#videocontainer{
+    width: 100%;
+    float: none;
+}
+#videoID{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#disclaimercontainer{
+    width: 100%;
+    float: none;
+}
+#disclaimer{
+    font-size: 2em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-justify: auto;s
+}
+#video2container{
+    width: 100%;
+    float: none;
+}
+#video2ID{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#surpresatitlecontainer{
+    width: 100%;
+    float: none;
+}
+#surpresatitle{
+    text-align: center;
+    font-size: 3em;
+}
+#image1container{
+    width: 100%;
+    float: none;
+}
+#image1{
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image2container{
+    width: 100%;
+    float: none;
+}
+#image2{
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
