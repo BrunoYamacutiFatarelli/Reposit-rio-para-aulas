@@ -43,3 +43,7 @@ header{
 .clearBoth{
     clear: both;
 }
+.mainContainer{
+    display: flex;
+    
+}

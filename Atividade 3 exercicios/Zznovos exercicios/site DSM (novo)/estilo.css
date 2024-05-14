@@ -1,0 +1,110 @@
+body{
+    border-left: 2em solid #ae0f0a;
+    border-right: 2em solid #ae0f0a;
+}
+a:link{
+    color: #ae0f0a;
+}
+a:visited{
+    color: rgb(255, 196, 0);
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: #990e09;
+}
+header{
+    float: left;
+    width: 100%;
+    background-color:rgb(216, 216, 216);
+}
+#logoContainer{
+    float: left;
+}
+#pageLogo{
+    width: 15em;
+}
+#titleContainer{
+    text-align: center;
+    padding-right: 15em;
+}
+#pageTitle{
+    font-size: 3.5em;
+}
+#navContainer{
+    float: right;
+}
+#pageNav{
+    font-size: larger;
+}
+#mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.secContainer{
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(216, 216, 216);
+    border: rgb(216, 216, 216) solid 5px;
+    border-radius: 5px;
+    margin: 2em;
+    width: 20%;
+}
+.contentTitle{
+    text-align: center;
+    font-size: 2em;
+}
+.contentText{
+    text-justify: auto;
+    font-size: 1.5em;
+}
+.imageContainer{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+    border: rgb(216, 216, 216) solid 5px solid 5px;
+    border-radius: 5px;
+}
+#footercontainer{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+.mainContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secContainer2{
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(216, 216, 216);
+    border: rgb(216, 216, 216) solid 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 70%;
+}
+#fatecImg{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+    border: rgb(216, 216, 216) solid 5px solid 5px;
+    border-radius: 5px;
+}
+#gradeImg{
+    width: 80%;
+    padding: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(216, 216, 216) solid 5px solid 5px;
+    border-radius: 5px;
+}
