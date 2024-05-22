@@ -1,0 +1,13 @@
+#headerContainer{
+    background-color: #348e5e;
+}
+#pageTitle{
+    font-weight: 700;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #348e5e;
+}
