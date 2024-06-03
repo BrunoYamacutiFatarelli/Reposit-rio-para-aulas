@@ -20,3 +20,14 @@
 nav{
     background-color: #FFC72C;
 }
+.filterBar a{
+    text-decoration: none;
+    color:black;
+}
+.filterBar a:hover{
+    color:#FFC72C;
+}
+
+.filterListLink a:after{
+    content:" | ";
+}

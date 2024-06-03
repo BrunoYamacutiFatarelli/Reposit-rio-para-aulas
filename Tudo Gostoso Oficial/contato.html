@@ -32,34 +32,46 @@
         </div>
     </nav>
     <main class="container-fluid">
-        <form action="/paginaContato.php" method="get">
+        <form action="/paginaContato.php" method="get" class="needs-validation" novalidate>
             <div class="row mt-3">
                 <div class="col-lg-5">
                 <label for="txtNome" class="form-label">Nome</label>
-                <input type="text" id="txtNome" name="txtNome" value="" class="form-control" aria-describedby="helperNome">
-                <div id="helperNome" class="form-text">
-                    Digite seu Nome Completo
+                <input type="text" id="txtNome" name="txtNome" value="" class="form-control" required>
+                <div class="invalid-feedback">
+                    Digite seu Nome!
                 </div>
                 </div>
                 <div class="col-lg-4">
                 <label for="txtEmail" class="form-label">E-mail</label>
-                <input type="text" id="txtEmail" name="txtEmail" value="" class="form-control" aria-describedby="helperEmail">
-                <div id="helperEmail" class="form-text">
-                    Digite seu Endereço de Email
+                <input type="text" id="txtEmail" name="txtEmail" value="" class="form-control" required>
+                <div class="invalid-feedback">
+                    Seu e-mail está inválido!
+                </div>
+                <div class="valid-feedback">
+                    Seu e-mail está válido!
                 </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <label for="txtUF" class="form-label">Estado</label>
-                <select name="txtUF" id="txtUF" class="form-select" aria-describedby="helperUF">
-                    <option value="AC">Acre</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="SP">São Paulo</option>
-                </select>
-                <div id="helperUF" class="form-text">
-                    Escolha o seu Estado de Origem
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="txtUF" class="form-label">Estado</label>
+                    <select name="txtUF" id="txtUF" class="form-select" aria-describedby="helperUF">
+                        <option value="">Selecione o Estado</option>
+                    </select>
+                    <div id="helperUF" class="form-text">
+                        Escolha o seu Estado de Origem
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <label for="txtCidade" class="form-label">Cidade</label>
+                    <div id="cidadeHolder">
+                    <select name="txtCidade" id="txtCidade" class="form-select" aria-describedby="helperCidade">
+                        <option value="">Selecione a Cidade</option>
+                    </select>
+                    </div>
+                    <div id="helperCidade" class="form-text">
+                        Escolha a sua Cidade de Origem
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -95,7 +107,10 @@
             <div class="row">
                 <div class="col-lg-8 mb-3">
                 <label for="txtMensagem" class="form-label">Sua Mensagem:</label>
-                <textarea name="txtMensagem" id="txtMensagem" rows="4" cols="100" class="form-control"></textarea>
+                <textarea name="txtMensagem" id="txtMensagem" rows="4" cols="100" class="form-control" required></textarea>
+                <div class="invalid-feedback">
+                    Digite sua mensagem!
+                </div>
                 </div>
             </div>
             <br>
@@ -107,6 +122,7 @@
         </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <script src='js/script.js'></script>
 </body>
 </html>
